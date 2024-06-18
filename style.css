@@ -52,13 +52,19 @@
     border-radius: 20px;
     color: white;
     transition: background-color 0.3s ease;
+    display: inline-block;
 }
 .download:hover {
     background-color: darkred;
 }
-
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
 .sec-2 {
-    background-color: #f8f9fa;
+    background-color: #fff;
     padding: 20px;
 }
 .App-part {
@@ -73,9 +79,8 @@
     flex: 0 0 auto;
 }
 .App-part .app-img img {
-    width: auto;
-    max-width: 200px;
-    height: auto;
+    width: 350px;
+    height:550px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -125,8 +130,9 @@
         padding-left: 0;
         padding-top: 50px;
     }
-    .button{
+    .button {
         display: block;
+        margin-top: 15px;
     }
     .sec-1 h1 {
         font-size: 28px;
