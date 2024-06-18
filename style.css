@@ -107,6 +107,9 @@
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
+    body{
+        text-align: center;
+    }
     .sec-1, .sec-3 {
         padding: 30px;
         display: block;
@@ -115,6 +118,9 @@
     .sec-3 .container {
         display: block;
         flex-direction: reverse;
+    }
+    .sec-2{
+        padding: 0;
     }
     .sec-1 {
         display: block;
